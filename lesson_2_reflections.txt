@@ -11,3 +11,8 @@
 3. How can you use the staging area to make sure you have one commit per logical change?
 
 -By using the command git diff I can see the changes I made since the last commit.
+
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+-Whenever you need to try something out that is sidtracking off the project or when you just want to see if another function might work with rest of the project but you don't want to include it if it doesn't. This way you or someone else can keep working on the main project without having to take the side project into consideration.
