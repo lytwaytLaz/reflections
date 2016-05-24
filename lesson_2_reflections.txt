@@ -21,3 +21,8 @@
 5. How do the diagrams help you visualize the branch structure?
 
 -The diagram helps to visualize where "side-projects" branch of and makes it easier to see how we can track progress in different parts of a project.
+
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+-Two branches merged means that git merges code from one branch into the other. The representation in the graph show that a branch first diverges from the master than merges back with it which of course means that we use the code from the branch in the master program.
