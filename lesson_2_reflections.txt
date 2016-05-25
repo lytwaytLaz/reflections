@@ -1,0 +1,33 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+-Git creates a repository which one can add files to. It has to be done so git will "know" what to keep track of.
+
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+-The working directory can contain all kinds of files and not just the ones we wish to track. In the staging area all changed files are gathered before the user creates a new commit. This means the user decides when it's time to create a commit.
+
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+-By using the command git diff I can see the changes I made since the last commit.
+
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+-Whenever you need to try something out that is sidtracking off the project or when you just want to see if another function might work with rest of the project but you don't want to include it if it doesn't. This way you or someone else can keep working on the main project without having to take the side project into consideration.
+
+
+5. How do the diagrams help you visualize the branch structure?
+
+-The diagram helps to visualize where "side-projects" branch of and makes it easier to see how we can track progress in different parts of a project.
+
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+-Two branches merged means that git merges code from one branch into the other. The representation in the graph show that a branch first diverges from the master than merges back with it which of course means that we use the code from the branch in the master program.
+
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+-Automatic merging can't fix two or more changes to the same lines of code, it can only merge new unrelated lines. Doing all merging manually would be way too tedious.
