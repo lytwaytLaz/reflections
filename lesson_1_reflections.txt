@@ -33,3 +33,6 @@ U don't have to worry about breaking anything really, since git easily takes me 
 7. Now that you have your workspace set up, what do you want to try using Git for?
 
 I'd like to improve on a java assignment and track the changes.
+
+
+Testing if merge OK
